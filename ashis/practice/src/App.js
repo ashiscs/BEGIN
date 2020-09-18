@@ -10,7 +10,8 @@ import Counter from "./components/Counter";
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Greet name="Dhoni" hero="best" />
+      <Welcome name="Dhoni" hero="best" />
     </div>
   );
 }
